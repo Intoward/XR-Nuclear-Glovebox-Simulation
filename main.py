@@ -126,7 +126,7 @@ cy = 241.3109
 
 pcd = depth_to_point_cloud(rgb, depth, fx, fy, cx, cy)
 
-#2.2 3D Model from Point Cloud
+#2.3 3D Model from Point Cloud
 
 # Load and preprocess point cloud data
 def load_point_cloud(file_path):
