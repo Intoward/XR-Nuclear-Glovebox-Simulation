@@ -28,15 +28,23 @@ Applications
 
 Repository Structure
 
-├── yolov11_custom_segmentation/         # Custom YOLOv11 training scripts
-│   ├── train.py                         # Script for training YOLOv11 models
-│   ├── predict.py                       # Script for model inference
-├── point_cloud_processing/              # Depth data and point cloud scripts
-│   ├── depth_to_point_cloud.py          # Converts depth images to point clouds
-│   ├── point_cloud_to_3d_model.py       # Generates 3D models from point clouds
-├── data/                                # Sample datasets and test files
-├── main.py                              # Integrated project script
-└── README.md                            # Project documentation
+├── yolov11_custom_segmentation/         # Custom YOLOv11 training scripts 
+
+│   ├── train.py                         # Script for training YOLOv11 models 
+
+│   ├── predict.py                       # Script for model inference 
+
+├── point_cloud_processing/              # Depth data and point cloud scripts 
+
+│   ├── depth_to_point_cloud.py          # Converts depth images to point clouds 
+
+│   ├── point_cloud_to_3d_model.py       # Generates 3D models from point clouds 
+
+├── data/                                # Sample datasets and test files 
+
+├── main.py                              # Integrated project script 
+
+└── README.md                            # Project documentation 
 
 Installation Instructions
 
@@ -61,8 +69,8 @@ pip install ultralytics
 Step 4: Verify GPU Availability
 
 python
->>> import torch
->>> torch.cuda.is_available()  # Should return True for GPU support
+import torch
+torch.cuda.is_available()  # Should return True for GPU support
 
 How to Use
 1. Training YOLOv11 Custom Models
