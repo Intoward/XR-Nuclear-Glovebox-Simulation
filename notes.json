@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Flask"
+    },
+    {
+      "id": 1,
+      "name": "cup"
+    },
+    {
+      "id": 2,
+      "name": "vial"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

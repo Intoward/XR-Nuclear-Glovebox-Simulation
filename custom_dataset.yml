@@ -1,0 +1,6 @@
+train: C:\Users\rosej\Documents\Quickstart Project\yolov11_custom_segmentation\train
+val: C:\Users\rosej\Documents\Quickstart Project\yolov11_custom_segmentation\val
+
+nc: 3
+
+names: ["Flask", "vial", "cup"]
